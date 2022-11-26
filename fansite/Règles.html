@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF8" >
+    <title> FanSite </title>
+    <link href="fansite.css" rel="stylesheet">
+</head>
+<body>
+    <header> <div class="header3">
+    <nav>
+            <a href="index.html">Accueil</a>
+            <a href="Histoire.html">Histoire</a>  
+            <a href="LiensUtiles.html">Liens utiles</a>
+    </nav>
+    </header>
+    </div>
+<h1 class="regl">
+    Règles de base
+</h1>
+<section> 
+    <figure> <p>
+        <img src="goban.png"> 
+        <figcaption> <br>  Le matériel de jeu traditionnel se compose d'un goban sur lequel est tracé un quadrillage de 19x19 lignes, soit 361 intersections, et de pierres qui sont soit noires, soit blanches. Mais rien n'empêche les joueurs d'utiliser un autre matériel, et en particulier des gobans de 13x13 ou 9x9 lignes pour les parties d'initiation. <br> <br>
+            <span  class="def">
+                Fig.1 : voici un goban de 19x19 lignes. Remarquez que certains points sont renforcés. On les appelle hoshi.</span>
+        </figcaption> </p>
+        </figure>
+        <figure>  <p> <img src="abc.png">
+        <figcaption>  <br> Deux intersections sont dites voisines quand elles sont sur la même ligne et sans autre intersection entre elles. <br> <br>
+             <span class="def">Diag.1 : 'a' et 'b' sont des intersections voisines, mais 'b' et 'c' ne le sont pas.</span>
+        </figcaption></p>
+        </figure>
+        <figure>
+        <p> <img src="libertes.png">
+          <figcaption>  <br> Deux pierres sont voisines si elles occupent des intersections voisines.
+            Une chaîne est un ensemble de une ou plusieurs pierres de même couleur voisines de proche en proche.
+            Les libertés d'une chaîne sont les intersections inoccupées voisines des pierres de cette chaîne.i </p> <br>
+            <span class="def">Diag.2 : les quatre pierres blanches marquées d'un 'X' sont voisines de proche en proche. Elles forment une chaîne qui a cinq libertés : les intersections marquées par les lettres 'a', 'b', 'c', 'd', et 'e'.</span>
+          </figcaption>
+        </figure>
+</section>
+<h2 class="terr">Territoires</h2>
+<section class="terri">
+    <p> Un territoire est un ensemble de une ou plusieurs intersections inoccupées voisines de proche en proche, délimitées par des pierres de même couleur. </p> <br>
+        <figure class="terro">
+            <img src="territoire.png">
+              <figcaption>
+                <span class="def"><br>Diag.3 : les pierres noires délimitent un territoire de 7 intersections. Notez que le bord de la grille forme une frontière naturelle du territoire, mais on pourrait bien sûr avoir un territoire qui ne touche pas du tout le bord (imaginez que la grille est un continent entouré par la mer, que le bord de la grille représente le rivage, et que les pierres représentent les frontières entre les pays de ce continent).</span>
+            </figcaption> 
+        </figure>
+</section>
+<h2 class="derou"> Déroulement du jeu </h2> <br>
+    <h3>Le go se joue à deux. Celui qui commence joue avec les pierres noires et l'autre avec les blanches. À tour de rôle, les joueurs posent une pierre de leur couleur sur une intersection inoccupée du goban ou bien ils passent.
+        Passer sert essentiellement à indiquer à l'adversaire que l'on considère la partie terminée.</h3> <br> <br>
+<h2 class="capture"> -Capture- </h2> <br>
+    <h3>Lorsqu'un joueur supprime la dernière liberté d'un chaîne adverse, il la capture en retirant du goban les pierres de cette chaîne. De plus, en posant une pierre, un joueur ne doit pas construire une chaîne sans liberté, sauf si par ce coup il capture une chaîne adverse.
+        Lorsqu'une chaîne n'a plus qu'une liberté, on dit qu'elle est en atari.</h3> <br> <br>
+
+<section class="captz">
+    <figure >
+        <img src="atari.png"> 
+        <figcaption>
+         <span class="def" > <br> Diag.4 : les trois pierres blanches 'X' forment une chaîne qui est en atari (car elle n'a plus qu'une liberté, en 'a').  </span><figcaption>   
+    </figure>  
+    <figure>
+    <img src="captz.png" > 
+        <figcaption>
+         <span class="def"> <br> Diag.5 : si Noir joue en 1, il supprime la dernière liberté des pierres blanches...</span> <figcaption>
+        </figure>
+        <figure>
+        <img src="disp.png"> 
+        <figcaption> <span class="def"> <br> Diag.6 : ...alors Noir capture les pierres blanches et les retire du goban. </span></figcaption>
+    </figure>
+</section>
+<footer>
+        <a href="index.html">Acceuil</a>
+        <a href="Histoire.html">Histoire</a>  
+        <a href="Règles.html">Règles</a>
+        <a href="LiensUtiles.html">Liens utiles</a>      
+</footer>
+</body>
+</html>
+
+
